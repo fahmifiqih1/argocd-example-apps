@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui-nginx
     spec:
       containers:
-      - image: docker.io//nginxinc/nginx-unprivileged:latest
+      - image: docker.io/nginxinc/nginx-unprivileged:latest
         name: guestbook-ui-nginx
         ports:
         - containerPort: 8080
